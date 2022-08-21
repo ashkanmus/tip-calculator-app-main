@@ -48,7 +48,6 @@ for(radio in inRadios) {
             for(radio in inRadios) {
                 inRadios[radio].checked = false;
             }
-        }
     
         if (inpeopleCount < 1 || inpeopleCount == ''){
             warningMsg.style.display = "block";
@@ -59,9 +58,8 @@ for(radio in inRadios) {
             warninInp.style.border = '2px solid transparent';
             calculateTip(inBill,percentage, inpeopleCount)
         }
-
-        
-    })
+    }
+})
 })
 
 //Reset button

@@ -103,8 +103,8 @@ input{
     position: absolute;
     font-size: 8pt;
     color: crimson;
-    top: 6px;
-    right: 0;
+    top: 0;
+    right: 5px;
     display: none;
 }
 
